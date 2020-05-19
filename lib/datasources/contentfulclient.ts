@@ -1,5 +1,4 @@
 import { createClient } from 'contentful'
-import { getOperationRootType } from 'graphql';
 import { DataSource } from 'apollo-datasource'
 
 const isProduction = false
