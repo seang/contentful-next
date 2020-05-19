@@ -1,4 +1,4 @@
-import { createClient, ContentfulClientApi } from 'contentful'
+import { createClient } from 'contentful'
 import { getOperationRootType } from 'graphql';
 import { DataSource } from 'apollo-datasource'
 
