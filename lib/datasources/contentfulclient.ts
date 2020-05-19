@@ -1,12 +1,12 @@
 import { createClient, ContentfulClientApi } from 'contentful'
-import { SPACE, DELIVERY_TOKEN, PREVIEW_TOKEN } from '../../config.json'
 import { getOperationRootType } from 'graphql';
-
 import { DataSource } from 'apollo-datasource'
 
 const isProduction = false
 
 const isStaging = process.env.staging ? process.env.staging : false
+const PREVIEW_TOKEN = "placeholder"
+const SPACE = "placeholder"
 
 export class ContentfulClient extends DataSource {
   client = null
